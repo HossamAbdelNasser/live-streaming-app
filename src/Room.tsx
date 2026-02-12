@@ -29,8 +29,9 @@ function Room() {
     },
   ];
 
-  const appID = 1488312031;
-  const serverSecret = "f2d9b5b649d503515059f4e038b91652";
+  const appID = Number(import.meta.env.VITE_appId); //zegocloud.com
+  const serverSecret = import.meta.env.VITE_serverSecret;
+
   const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
     appID,
     serverSecret,
