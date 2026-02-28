@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./Home.css";
 
 function Home() {
   const [name, setName] = useState("");
@@ -14,7 +15,7 @@ function Home() {
   };
 
   return (
-    <div>
+    <div className="Home">
       <h1>Join a room</h1>
       <input
         type="text"

@@ -1,0 +1,16 @@
+.Footer-Container {
+  position: relative;
+  width: 100%;
+  bottom: 0;
+  text-align: left;
+  background-color: grey;
+  color: aliceblue;
+  padding: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+}
+
+.links li {
+  text-align: left;
+  list-style-type: none;
+}
